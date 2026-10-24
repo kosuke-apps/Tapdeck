@@ -3,8 +3,8 @@ import Foundation
 
 /// Records what a mix plays to an audio file, with no screen capture involved.
 ///
-/// This is the plain case Audio Hijack covers: keep what you are already
-/// routing — a call, a stream, one app's sound — as a file.
+/// This is the plain case: keep what you are already routing — a call, a
+/// stream, one app's sound — as a file.
 ///
 /// The mix arrives on a real-time thread, where opening or writing a file is
 /// forbidden: a blocked audio thread is a dropout. So the audio is copied into

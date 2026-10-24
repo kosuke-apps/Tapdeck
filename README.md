@@ -1,6 +1,7 @@
 # Tapdeck
 
-Audio routing and recording for macOS — the things Loopback and Audio Hijack do,
+Audio routing and recording for macOS — taking in the sound of individual apps and
+inputs, mixing it, and sending it to several outputs, including virtual devices,
 built on Core Audio's modern APIs.
 
 ## What it is for

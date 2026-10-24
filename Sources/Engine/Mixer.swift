@@ -5,7 +5,7 @@ import Foundation
 
 /// Combines several sources into one output device.
 ///
-/// This is the part Loopback calls bundling sources onto a virtual device.
+/// This is the part that bundles sources onto a virtual device.
 /// Point the output at a Tapdeck virtual device and Zoom or OBS can pick its
 /// input side as a microphone, which is how "share my mic and my computer
 /// audio" works.
