@@ -4,8 +4,8 @@ import Foundation
 
 /// Wrapper around Core Audio's process tap API (macOS 14.2+).
 ///
-/// This is the heart of what makes a Loopback-style tool possible: it pulls out
-/// the audio of one chosen app, with no virtual audio driver and no kernel
+/// This is the heart of what makes per-app capture possible: it pulls out the
+/// audio of one chosen app, with no virtual audio driver and no kernel
 /// extension involved.
 ///
 /// How it works:
