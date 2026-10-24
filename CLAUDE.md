@@ -1,9 +1,10 @@
 # Tapdeck — project context
 
-Audio routing, mixing and recording for macOS, in the spirit of Loopback and
-Audio Hijack, built on current Core Audio APIs. See `README.md` for the user
-view and the list of hard-won implementation notes; this file is for resuming
-work.
+Audio routing, mixing and recording for macOS: taking in the sound of individual
+apps and inputs, mixing it, sending it to several outputs including virtual
+devices, and recording it, built on current Core Audio APIs. See `README.md` for
+the user view and the list of hard-won implementation notes; this file is for
+resuming work.
 
 ## Conventions
 
